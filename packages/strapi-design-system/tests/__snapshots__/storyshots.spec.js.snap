@@ -19792,10 +19792,15 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
 }
 
 .c20 {
-  padding-top: 8px;
+  padding-top: 4px;
   padding-right: 16px;
-  padding-bottom: 8px;
+  padding-bottom: 4px;
   padding-left: 24px;
+  margin-bottom: 4px;
+}
+
+.c22 {
+  position: relative;
 }
 
 .c25 {
@@ -19806,13 +19811,16 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   background: #eaeaef;
   padding: 4px;
   border-radius: 4px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
   min-width: 20px;
 }
 
 .c31 {
   background: #f6f6f9;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   padding-left: 32px;
 }
 
@@ -19827,11 +19835,11 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   padding-left: 32px;
 }
 
-.c41 {
+.c42 {
   padding-bottom: 56px;
 }
 
-.c43 {
+.c44 {
   background: #f6f6f9;
   padding-top: 40px;
   padding-right: 56px;
@@ -19839,28 +19847,28 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   padding-left: 56px;
 }
 
-.c45 {
+.c46 {
   padding-left: 16px;
 }
 
-.c47 {
+.c48 {
   padding-right: 8px;
 }
 
-.c52 {
+.c53 {
   padding-right: 56px;
   padding-left: 56px;
 }
 
-.c53 {
+.c54 {
   padding-bottom: 16px;
 }
 
-.c56 {
+.c57 {
   padding-top: 8px;
 }
 
-.c57 {
+.c58 {
   background: #f0f0ff;
   color: #4945ff;
   padding-right: 12px;
@@ -19872,31 +19880,31 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   height: 2rem;
 }
 
-.c64 {
+.c65 {
   background: #ffffff;
   border-radius: 4px;
   box-shadow: 0px 1px 4px rgba(33,33,52,0.1);
 }
 
-.c67 {
+.c68 {
   padding-right: 24px;
   padding-left: 24px;
 }
 
-.c79 {
+.c80 {
   padding-left: 4px;
 }
 
-.c80 {
+.c81 {
   background: #f0f0ff;
   padding: 20px;
 }
 
-.c82 {
+.c83 {
   background: #d9d8ff;
 }
 
-.c84 {
+.c85 {
   padding-left: 12px;
 }
 
@@ -19921,41 +19929,41 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   line-height: 1.43;
 }
 
-.c40 {
+.c41 {
   font-weight: 500;
   color: #32324d;
   font-size: 0.875rem;
   line-height: 1.43;
 }
 
-.c44 {
+.c45 {
   color: #32324d;
   font-weight: 600;
   font-size: 2rem;
   line-height: 1.25;
 }
 
-.c49 {
+.c50 {
   font-weight: 600;
   color: #32324d;
   font-size: 0.75rem;
   line-height: 1.33;
 }
 
-.c51 {
+.c52 {
   color: #666687;
   font-size: 1rem;
   line-height: 1.5;
 }
 
-.c63 {
+.c64 {
   font-weight: 600;
   color: #32324d;
   font-size: 0.875rem;
   line-height: 1.43;
 }
 
-.c75 {
+.c76 {
   color: #32324d;
   font-weight: 600;
   font-size: 0.6875rem;
@@ -19963,7 +19971,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   text-transform: uppercase;
 }
 
-.c85 {
+.c86 {
   font-weight: 600;
   color: #4945ff;
   font-size: 0.75rem;
@@ -20002,24 +20010,6 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   flex-direction: column;
 }
 
-.c22 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
 .c23 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -20052,7 +20042,25 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   justify-content: center;
 }
 
-.c54 {
+.c38 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c55 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -20075,7 +20083,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
 }
 
 .c19 > * + * {
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .c11 {
@@ -20176,19 +20184,19 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   fill: #666687;
 }
 
-.c78 {
+.c79 {
   border-radius: 50%;
   display: block;
   position: relative;
 }
 
-.c77 {
+.c78 {
   position: relative;
   width: 1.625rem;
   height: 1.625rem;
 }
 
-.c73 {
+.c74 {
   margin: 0;
   height: 18px;
   min-width: 18px;
@@ -20199,12 +20207,12 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   cursor: pointer;
 }
 
-.c73:checked {
+.c74:checked {
   background-color: #4945ff;
   border: 1px solid #4945ff;
 }
 
-.c73:checked:after {
+.c74:checked:after {
   content: '';
   display: block;
   position: relative;
@@ -20218,21 +20226,21 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   transform: translateX(-50%) translateY(-50%);
 }
 
-.c73:checked:disabled:after {
+.c74:checked:disabled:after {
   background: url(test-file-stub) no-repeat no-repeat center center;
 }
 
-.c73:disabled {
+.c74:disabled {
   background-color: #dcdce4;
   border: 1px solid #c0c0cf;
 }
 
-.c73:indeterminate {
+.c74:indeterminate {
   background-color: #4945ff;
   border: 1px solid #4945ff;
 }
 
-.c73:indeterminate:after {
+.c74:indeterminate:after {
   content: '';
   display: block;
   position: relative;
@@ -20247,20 +20255,20 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   transform: translateX(-50%) translateY(-50%);
 }
 
-.c73:indeterminate:disabled {
+.c74:indeterminate:disabled {
   background-color: #dcdce4;
   border: 1px solid #c0c0cf;
 }
 
-.c73:indeterminate:disabled:after {
+.c74:indeterminate:disabled:after {
   background-color: #8e8ea9;
 }
 
-.c48 {
+.c49 {
   height: 100%;
 }
 
-.c46 {
+.c47 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -20272,7 +20280,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   background: #ffffff;
 }
 
-.c46 .c0 {
+.c47 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -20283,56 +20291,56 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   align-items: center;
 }
 
-.c46 .c9 {
+.c47 .c9 {
   color: #ffffff;
 }
 
-.c46[aria-disabled='true'] {
+.c47[aria-disabled='true'] {
   border: 1px solid #dcdce4;
   background: #eaeaef;
 }
 
-.c46[aria-disabled='true'] .c9 {
+.c47[aria-disabled='true'] .c9 {
   color: #666687;
 }
 
-.c46[aria-disabled='true'] svg > g,
-.c46[aria-disabled='true'] svg path {
+.c47[aria-disabled='true'] svg > g,
+.c47[aria-disabled='true'] svg path {
   fill: #666687;
 }
 
-.c46[aria-disabled='true']:active {
+.c47[aria-disabled='true']:active {
   border: 1px solid #dcdce4;
   background: #eaeaef;
 }
 
-.c46[aria-disabled='true']:active .c9 {
+.c47[aria-disabled='true']:active .c9 {
   color: #666687;
 }
 
-.c46[aria-disabled='true']:active svg > g,
-.c46[aria-disabled='true']:active svg path {
+.c47[aria-disabled='true']:active svg > g,
+.c47[aria-disabled='true']:active svg path {
   fill: #666687;
 }
 
-.c46:hover {
+.c47:hover {
   background-color: #f6f6f9;
 }
 
-.c46:active {
+.c47:active {
   background-color: #eaeaef;
 }
 
-.c46 .c9 {
+.c47 .c9 {
   color: #32324d;
 }
 
-.c46 svg > g,
-.c46 svg path {
+.c47 svg > g,
+.c47 svg path {
   fill: #32324d;
 }
 
-.c50 {
+.c51 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -20342,7 +20350,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   border: 1px solid #4945ff;
 }
 
-.c50 .c0 {
+.c51 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -20353,54 +20361,54 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   align-items: center;
 }
 
-.c50 .c9 {
+.c51 .c9 {
   color: #ffffff;
 }
 
-.c50[aria-disabled='true'] {
+.c51[aria-disabled='true'] {
   border: 1px solid #dcdce4;
   background: #eaeaef;
 }
 
-.c50[aria-disabled='true'] .c9 {
+.c51[aria-disabled='true'] .c9 {
   color: #666687;
 }
 
-.c50[aria-disabled='true'] svg > g,
-.c50[aria-disabled='true'] svg path {
+.c51[aria-disabled='true'] svg > g,
+.c51[aria-disabled='true'] svg path {
   fill: #666687;
 }
 
-.c50[aria-disabled='true']:active {
+.c51[aria-disabled='true']:active {
   border: 1px solid #dcdce4;
   background: #eaeaef;
 }
 
-.c50[aria-disabled='true']:active .c9 {
+.c51[aria-disabled='true']:active .c9 {
   color: #666687;
 }
 
-.c50[aria-disabled='true']:active svg > g,
-.c50[aria-disabled='true']:active svg path {
+.c51[aria-disabled='true']:active svg > g,
+.c51[aria-disabled='true']:active svg path {
   fill: #666687;
 }
 
-.c50:hover {
+.c51:hover {
   border: 1px solid #7b79ff;
   background: #7b79ff;
 }
 
-.c50:active {
+.c51:active {
   border: 1px solid #4945ff;
   background: #4945ff;
 }
 
-.c50 svg > g,
-.c50 svg path {
+.c51 svg > g,
+.c51 svg path {
   fill: #ffffff;
 }
 
-.c62 {
+.c63 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -20412,7 +20420,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   background: #ffffff;
 }
 
-.c62 .c0 {
+.c63 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -20423,52 +20431,52 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   align-items: center;
 }
 
-.c62 .c9 {
+.c63 .c9 {
   color: #ffffff;
 }
 
-.c62[aria-disabled='true'] {
+.c63[aria-disabled='true'] {
   border: 1px solid #dcdce4;
   background: #eaeaef;
 }
 
-.c62[aria-disabled='true'] .c9 {
+.c63[aria-disabled='true'] .c9 {
   color: #666687;
 }
 
-.c62[aria-disabled='true'] svg > g,
-.c62[aria-disabled='true'] svg path {
+.c63[aria-disabled='true'] svg > g,
+.c63[aria-disabled='true'] svg path {
   fill: #666687;
 }
 
-.c62[aria-disabled='true']:active {
+.c63[aria-disabled='true']:active {
   border: 1px solid #dcdce4;
   background: #eaeaef;
 }
 
-.c62[aria-disabled='true']:active .c9 {
+.c63[aria-disabled='true']:active .c9 {
   color: #666687;
 }
 
-.c62[aria-disabled='true']:active svg > g,
-.c62[aria-disabled='true']:active svg path {
+.c63[aria-disabled='true']:active svg > g,
+.c63[aria-disabled='true']:active svg path {
   fill: #666687;
 }
 
-.c62:hover {
+.c63:hover {
   background-color: #f6f6f9;
 }
 
-.c62:active {
+.c63:active {
   background-color: #eaeaef;
 }
 
-.c62 .c9 {
+.c63 .c9 {
   color: #32324d;
 }
 
-.c62 svg > g,
-.c62 svg path {
+.c63 svg > g,
+.c63 svg path {
   fill: #32324d;
 }
 
@@ -20544,10 +20552,6 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   fill: #666687;
 }
 
-.c37 {
-  max-height: 2rem;
-}
-
 .c37 svg {
   height: 0.25rem;
 }
@@ -20556,7 +20560,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   fill: #4a4a6a;
 }
 
-.c38 {
+.c39 {
   border: none;
   padding: 0;
   background: transparent;
@@ -20570,7 +20574,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   align-items: center;
 }
 
-.c39 {
+.c40 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -20605,10 +20609,6 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   transform: rotateX(0deg);
 }
 
-.c21 {
-  max-height: 2rem;
-}
-
 .c21 svg {
   height: 0.25rem;
 }
@@ -20626,6 +20626,9 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .c5 {
@@ -20633,43 +20636,43 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   grid-template-columns: auto 1fr;
 }
 
-.c42 {
+.c43 {
   overflow-x: hidden;
 }
 
-.c55 > * + * {
-  margin-left: 8px;
-}
-
-.c60 {
-  margin-left: auto;
-}
-
-.c60 > * + * {
+.c56 > * + * {
   margin-left: 8px;
 }
 
 .c61 {
+  margin-left: auto;
+}
+
+.c61 > * + * {
+  margin-left: 8px;
+}
+
+.c62 {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
 
-.c65 {
+.c66 {
   overflow: hidden;
   border: 1px solid #eaeaef;
 }
 
-.c69 {
+.c70 {
   width: 100%;
   white-space: nowrap;
 }
 
-.c66 {
+.c67 {
   position: relative;
 }
 
-.c66:before {
+.c67:before {
   background: linear-gradient(90deg,#c0c0cf 0%,rgba(0,0,0,0) 100%);
   opacity: 0.2;
   position: absolute;
@@ -20679,7 +20682,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   left: 0;
 }
 
-.c66:after {
+.c67:after {
   background: linear-gradient(270deg,#c0c0cf 0%,rgba(0,0,0,0) 100%);
   opacity: 0.2;
   position: absolute;
@@ -20690,54 +20693,54 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   top: 0;
 }
 
-.c68 {
+.c69 {
   overflow-x: auto;
 }
 
-.c76 tr:last-of-type {
+.c77 tr:last-of-type {
   border-bottom: none;
-}
-
-.c70 {
-  border-bottom: 1px solid #eaeaef;
 }
 
 .c71 {
   border-bottom: 1px solid #eaeaef;
 }
 
-.c71 td,
-.c71 th {
+.c72 {
+  border-bottom: 1px solid #eaeaef;
+}
+
+.c72 td,
+.c72 th {
   padding: 16px;
 }
 
-.c71 td:first-of-type,
-.c71 th:first-of-type {
+.c72 td:first-of-type,
+.c72 th:first-of-type {
   padding: 0 4px;
 }
 
-.c71 th {
+.c72 th {
   padding-top: 0;
   padding-bottom: 0;
   height: 3.5rem;
 }
 
-.c72 {
+.c73 {
   vertical-align: middle;
   text-align: left;
   color: #666687;
   outline-offset: -4px;
 }
 
-.c72 input {
+.c73 input {
   vertical-align: sub;
 }
 
-.c74 svg {
+.c75 svg {
   height: 0.25rem;
 }
 
-.c83 {
+.c84 {
   height: 1.5rem;
   width: 1.5rem;
   border-radius: 50%;
@@ -20755,32 +20758,32 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
   align-items: center;
 }
 
-.c83 svg {
+.c84 svg {
   height: 0.625rem;
   width: 0.625rem;
 }
 
-.c83 svg path {
+.c84 svg path {
   fill: #4945ff;
 }
 
-.c81 {
+.c82 {
   border-radius: 0 0 4px 4px;
   display: block;
   width: 100%;
   border: none;
 }
 
-.c58 svg {
+.c59 svg {
   height: 0.5rem;
   width: 0.5rem;
 }
 
-.c58 svg path {
+.c59 svg path {
   fill: #4945ff;
 }
 
-.c59 {
+.c60 {
   border-right: 1px solid #d9d8ff;
   color: inherit;
   padding-right: 8px;
@@ -20860,7 +20863,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
             >
               <ul
                 class="c0 c18 c19"
-                spacing="2"
+                spacing="3"
               >
                 <li>
                   <div
@@ -20917,7 +20920,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                         </div>
                       </div>
                     </div>
-                    <ul
+                    <ol
                       id="subnav-list-88"
                     >
                       <li>
@@ -21060,7 +21063,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </div>
                         </a>
                       </li>
-                    </ul>
+                    </ol>
                   </div>
                 </li>
                 <li>
@@ -21118,7 +21121,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                         </div>
                       </div>
                     </div>
-                    <ul
+                    <ol
                       id="subnav-list-89"
                     >
                       <li>
@@ -21129,15 +21132,15 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                             class="c0 c36 c37"
                           >
                             <div
-                              class="c0 c22"
+                              class="c0 c38"
                             >
                               <button
                                 aria-controls="subnav-list-90"
                                 aria-expanded="true"
-                                class="c38"
+                                class="c39"
                               >
                                 <div
-                                  class="c39"
+                                  class="c40"
                                 >
                                   <svg
                                     aria-hidden="true"
@@ -21159,7 +21162,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                                   class="c0 c34"
                                 >
                                   <span
-                                    class="c9 c40"
+                                    class="c9 c41"
                                   >
                                     Default
                                   </span>
@@ -21313,44 +21316,44 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </ul>
                         </div>
                       </li>
-                    </ul>
+                    </ol>
                   </div>
                 </li>
               </ul>
             </div>
           </nav>
           <div
-            class="c0 c41 c42"
+            class="c0 c42 c43"
           >
             <div
               style="height: 0px;"
             >
               <div
-                class="c0 c43"
+                class="c0 c44"
                 data-strapi-header="true"
               >
                 <div
-                  class="c0 c22"
+                  class="c0 c38"
                 >
                   <div
                     class="c0 c23"
                   >
                     <h2
-                      class="c9 c44"
+                      class="c9 c45"
                     >
                       Other CT
                     </h2>
                     <div
-                      class="c0 c45"
+                      class="c0 c46"
                     >
                       <button
                         aria-disabled="false"
-                        class="c11 c46"
+                        class="c11 c47"
                         type="button"
                       >
                         <div
                           aria-hidden="true"
-                          class="c0 c47 c48"
+                          class="c0 c48 c49"
                         >
                           <svg
                             fill="none"
@@ -21368,7 +21371,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </svg>
                         </div>
                         <span
-                          class="c9 c49"
+                          class="c9 c50"
                         >
                           Edit
                         </span>
@@ -21377,12 +21380,12 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                   </div>
                   <button
                     aria-disabled="false"
-                    class="c11 c50"
+                    class="c11 c51"
                     type="button"
                   >
                     <div
                       aria-hidden="true"
-                      class="c0 c47 c48"
+                      class="c0 c48 c49"
                     >
                       <svg
                         fill="none"
@@ -21398,45 +21401,45 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </svg>
                     </div>
                     <span
-                      class="c9 c49"
+                      class="c9 c50"
                     >
                       Add an entry
                     </span>
                   </button>
                 </div>
                 <p
-                  class="c9 c51"
+                  class="c9 c52"
                 >
                   36 entries found
                 </p>
               </div>
             </div>
             <div
-              class="c0 c52"
+              class="c0 c53"
             >
               <div
-                class="c0 c53"
+                class="c0 c54"
               >
                 <div
                   class="c0 c8"
                 >
                   <div
-                    class="c0 c54 c55"
+                    class="c0 c55 c56"
                     wrap="wrap"
                   >
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             0
@@ -21466,18 +21469,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             1
@@ -21507,18 +21510,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             2
@@ -21548,18 +21551,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             3
@@ -21589,18 +21592,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             4
@@ -21630,18 +21633,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             5
@@ -21671,18 +21674,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             6
@@ -21712,18 +21715,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             7
@@ -21753,18 +21756,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             8
@@ -21794,18 +21797,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             9
@@ -21835,18 +21838,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             10
@@ -21876,18 +21879,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             11
@@ -21917,18 +21920,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             12
@@ -21958,18 +21961,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             13
@@ -21999,18 +22002,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             14
@@ -22040,18 +22043,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             15
@@ -22081,18 +22084,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             16
@@ -22122,18 +22125,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             17
@@ -22163,18 +22166,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             18
@@ -22204,18 +22207,18 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                       </button>
                     </div>
                     <div
-                      class="c0 c56"
+                      class="c0 c57"
                     >
                       <button
                         aria-disabled="false"
-                        class="c0 c57 c58"
+                        class="c0 c58 c59"
                         height="2rem"
                       >
                         <div
                           class="c0 c23"
                         >
                           <span
-                            class="c9 c49 c59"
+                            class="c9 c50 c60"
                           >
                             Hello world 
                             19
@@ -22246,26 +22249,26 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                     </div>
                   </div>
                   <div
-                    class="c0 c23 c60 c61"
+                    class="c0 c23 c61 c62"
                   >
                     <button
                       aria-disabled="false"
-                      class="c11 c62"
+                      class="c11 c63"
                       type="button"
                     >
                       <span
-                        class="c9 c63"
+                        class="c9 c64"
                       >
                         Settings
                       </span>
                     </button>
                     <button
                       aria-disabled="false"
-                      class="c11 c62"
+                      class="c11 c63"
                       type="button"
                     >
                       <span
-                        class="c9 c63"
+                        class="c9 c64"
                       >
                         Settings
                       </span>
@@ -22275,140 +22278,140 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
               </div>
             </div>
             <div
-              class="c0 c52"
+              class="c0 c53"
             >
               <div
-                class="c0 c64 c65"
+                class="c0 c65 c66"
               >
                 <div
-                  class="c0 c66"
+                  class="c0 c67"
                 >
                   <div
-                    class="c0 c67 c68"
+                    class="c0 c68 c69"
                   >
                     <table
                       aria-colcount="10"
                       aria-rowcount="6"
-                      class="c69"
+                      class="c70"
                     >
                       <thead
-                        class="c70"
+                        class="c71"
                       >
                         <tr
                           aria-rowindex="1"
-                          class="c0 c71"
+                          class="c0 c72"
                         >
                           <th
                             aria-colindex="1"
-                            class="c0 c72"
+                            class="c0 c73"
                           >
                             <div
                               class="c0 c23"
                             >
                               <input
                                 aria-label="Select all entries"
-                                class="c73"
+                                class="c74"
                                 tabindex="0"
                                 type="checkbox"
                               />
                               <span
-                                class="c74"
+                                class="c75"
                               />
                             </div>
                           </th>
                           <th
                             aria-colindex="2"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <div
                               class="c0 c23"
                             >
                               <span
-                                class="c9 c75"
+                                class="c9 c76"
                               >
                                 ID
                               </span>
                               <span
-                                class="c74"
+                                class="c75"
                               />
                             </div>
                           </th>
                           <th
                             aria-colindex="3"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <div
                               class="c0 c23"
                             >
                               <span
-                                class="c9 c75"
+                                class="c9 c76"
                               >
                                 Cover
                               </span>
                               <span
-                                class="c74"
+                                class="c75"
                               />
                             </div>
                           </th>
                           <th
                             aria-colindex="4"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <div
                               class="c0 c23"
                             >
                               <span
-                                class="c9 c75"
+                                class="c9 c76"
                               >
                                 Description
                               </span>
                               <span
-                                class="c74"
+                                class="c75"
                               />
                             </div>
                           </th>
                           <th
                             aria-colindex="5"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <div
                               class="c0 c23"
                             >
                               <span
-                                class="c9 c75"
+                                class="c9 c76"
                               >
                                 Categories
                               </span>
                               <span
-                                class="c74"
+                                class="c75"
                               />
                             </div>
                           </th>
                           <th
                             aria-colindex="6"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <div
                               class="c0 c23"
                             >
                               <span
-                                class="c9 c75"
+                                class="c9 c76"
                               >
                                 Contact
                               </span>
                               <span
-                                class="c74"
+                                class="c75"
                               />
                             </div>
                           </th>
                           <th
                             aria-colindex="7"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <div
@@ -22416,13 +22419,13 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                             >
                               More
                               <span
-                                class="c74"
+                                class="c75"
                               />
                             </div>
                           </th>
                           <th
                             aria-colindex="8"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <div
@@ -22430,13 +22433,13 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                             >
                               More
                               <span
-                                class="c74"
+                                class="c75"
                               />
                             </div>
                           </th>
                           <th
                             aria-colindex="9"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <div
@@ -22444,13 +22447,13 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                             >
                               More
                               <span
-                                class="c74"
+                                class="c75"
                               />
                             </div>
                           </th>
                           <th
                             aria-colindex="10"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <div
@@ -22462,33 +22465,33 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                                 Actions
                               </div>
                               <span
-                                class="c74"
+                                class="c75"
                               />
                             </div>
                           </th>
                         </tr>
                       </thead>
                       <tbody
-                        class="c76"
+                        class="c77"
                       >
                         <tr
                           aria-rowindex="2"
-                          class="c0 c71"
+                          class="c0 c72"
                         >
                           <td
                             aria-colindex="1"
-                            class="c0 c72"
+                            class="c0 c73"
                           >
                             <input
                               aria-label="Select Leon Lafrite"
-                              class="c73"
+                              class="c74"
                               tabindex="-1"
                               type="checkbox"
                             />
                           </td>
                           <td
                             aria-colindex="2"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22499,16 +22502,16 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="3"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span>
                               <div
-                                class="c77"
+                                class="c78"
                               >
                                 <img
                                   alt="Leon Lafrite"
-                                  class="c78"
+                                  class="c79"
                                   height="26px"
                                   src="https://avatars.githubusercontent.com/u/3874873?v=4"
                                   width="26px"
@@ -22518,7 +22521,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="4"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22529,7 +22532,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="5"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22540,7 +22543,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="6"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22551,7 +22554,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="7"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22562,7 +22565,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="8"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22573,7 +22576,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="9"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22584,7 +22587,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="10"
-                            class="c0 c72"
+                            class="c0 c73"
                           >
                             <div
                               class="c0 c23"
@@ -22614,7 +22617,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                                 </button>
                               </span>
                               <div
-                                class="c0 c79"
+                                class="c0 c80"
                               >
                                 <span>
                                   <button
@@ -22644,22 +22647,22 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                         </tr>
                         <tr
                           aria-rowindex="3"
-                          class="c0 c71"
+                          class="c0 c72"
                         >
                           <td
                             aria-colindex="1"
-                            class="c0 c72"
+                            class="c0 c73"
                           >
                             <input
                               aria-label="Select Leon Lafrite"
-                              class="c73"
+                              class="c74"
                               tabindex="-1"
                               type="checkbox"
                             />
                           </td>
                           <td
                             aria-colindex="2"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22670,16 +22673,16 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="3"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span>
                               <div
-                                class="c77"
+                                class="c78"
                               >
                                 <img
                                   alt="Leon Lafrite"
-                                  class="c78"
+                                  class="c79"
                                   height="26px"
                                   src="https://avatars.githubusercontent.com/u/3874873?v=4"
                                   width="26px"
@@ -22689,7 +22692,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="4"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22700,7 +22703,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="5"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22711,7 +22714,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="6"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22722,7 +22725,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="7"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22733,7 +22736,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="8"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22744,7 +22747,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="9"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22755,7 +22758,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="10"
-                            class="c0 c72"
+                            class="c0 c73"
                           >
                             <div
                               class="c0 c23"
@@ -22785,7 +22788,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                                 </button>
                               </span>
                               <div
-                                class="c0 c79"
+                                class="c0 c80"
                               >
                                 <span>
                                   <button
@@ -22815,22 +22818,22 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                         </tr>
                         <tr
                           aria-rowindex="4"
-                          class="c0 c71"
+                          class="c0 c72"
                         >
                           <td
                             aria-colindex="1"
-                            class="c0 c72"
+                            class="c0 c73"
                           >
                             <input
                               aria-label="Select Leon Lafrite"
-                              class="c73"
+                              class="c74"
                               tabindex="-1"
                               type="checkbox"
                             />
                           </td>
                           <td
                             aria-colindex="2"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22841,16 +22844,16 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="3"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span>
                               <div
-                                class="c77"
+                                class="c78"
                               >
                                 <img
                                   alt="Leon Lafrite"
-                                  class="c78"
+                                  class="c79"
                                   height="26px"
                                   src="https://avatars.githubusercontent.com/u/3874873?v=4"
                                   width="26px"
@@ -22860,7 +22863,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="4"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22871,7 +22874,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="5"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22882,7 +22885,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="6"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22893,7 +22896,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="7"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22904,7 +22907,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="8"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22915,7 +22918,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="9"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -22926,7 +22929,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="10"
-                            class="c0 c72"
+                            class="c0 c73"
                           >
                             <div
                               class="c0 c23"
@@ -22956,7 +22959,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                                 </button>
                               </span>
                               <div
-                                class="c0 c79"
+                                class="c0 c80"
                               >
                                 <span>
                                   <button
@@ -22986,22 +22989,22 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                         </tr>
                         <tr
                           aria-rowindex="5"
-                          class="c0 c71"
+                          class="c0 c72"
                         >
                           <td
                             aria-colindex="1"
-                            class="c0 c72"
+                            class="c0 c73"
                           >
                             <input
                               aria-label="Select Leon Lafrite"
-                              class="c73"
+                              class="c74"
                               tabindex="-1"
                               type="checkbox"
                             />
                           </td>
                           <td
                             aria-colindex="2"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23012,16 +23015,16 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="3"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span>
                               <div
-                                class="c77"
+                                class="c78"
                               >
                                 <img
                                   alt="Leon Lafrite"
-                                  class="c78"
+                                  class="c79"
                                   height="26px"
                                   src="https://avatars.githubusercontent.com/u/3874873?v=4"
                                   width="26px"
@@ -23031,7 +23034,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="4"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23042,7 +23045,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="5"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23053,7 +23056,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="6"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23064,7 +23067,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="7"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23075,7 +23078,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="8"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23086,7 +23089,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="9"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23097,7 +23100,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="10"
-                            class="c0 c72"
+                            class="c0 c73"
                           >
                             <div
                               class="c0 c23"
@@ -23127,7 +23130,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                                 </button>
                               </span>
                               <div
-                                class="c0 c79"
+                                class="c0 c80"
                               >
                                 <span>
                                   <button
@@ -23157,22 +23160,22 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                         </tr>
                         <tr
                           aria-rowindex="6"
-                          class="c0 c71"
+                          class="c0 c72"
                         >
                           <td
                             aria-colindex="1"
-                            class="c0 c72"
+                            class="c0 c73"
                           >
                             <input
                               aria-label="Select Leon Lafrite"
-                              class="c73"
+                              class="c74"
                               tabindex="-1"
                               type="checkbox"
                             />
                           </td>
                           <td
                             aria-colindex="2"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23183,16 +23186,16 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="3"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span>
                               <div
-                                class="c77"
+                                class="c78"
                               >
                                 <img
                                   alt="Leon Lafrite"
-                                  class="c78"
+                                  class="c79"
                                   height="26px"
                                   src="https://avatars.githubusercontent.com/u/3874873?v=4"
                                   width="26px"
@@ -23202,7 +23205,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="4"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23213,7 +23216,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="5"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23224,7 +23227,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="6"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23235,7 +23238,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="7"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23246,7 +23249,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="8"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23257,7 +23260,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="9"
-                            class="c0 c72"
+                            class="c0 c73"
                             tabindex="-1"
                           >
                             <span
@@ -23268,7 +23271,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                           </td>
                           <td
                             aria-colindex="10"
-                            class="c0 c72"
+                            class="c0 c73"
                           >
                             <div
                               class="c0 c23"
@@ -23298,7 +23301,7 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                                 </button>
                               </span>
                               <div
-                                class="c0 c79"
+                                class="c0 c80"
                               >
                                 <span>
                                   <button
@@ -23335,14 +23338,14 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                     class="c0 c14 c15"
                   />
                   <button
-                    class="c0 c80 c81"
+                    class="c0 c81 c82"
                   >
                     <div
                       class="c0 c23"
                     >
                       <div
                         aria-hidden="true"
-                        class="c0 c82 c83"
+                        class="c0 c83 c84"
                       >
                         <svg
                           fill="none"
@@ -23358,10 +23361,10 @@ exports[`Storyshots Design System/Components/Layout base 1`] = `
                         </svg>
                       </div>
                       <div
-                        class="c0 c84"
+                        class="c0 c85"
                       >
                         <span
-                          class="c9 c85"
+                          class="c9 c86"
                         >
                           Add another field to this collection type
                         </span>
@@ -35216,10 +35219,15 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
 }
 
 .c19 {
-  padding-top: 8px;
+  padding-top: 4px;
   padding-right: 16px;
-  padding-bottom: 8px;
+  padding-bottom: 4px;
   padding-left: 24px;
+  margin-bottom: 4px;
+}
+
+.c21 {
+  position: relative;
 }
 
 .c23 {
@@ -35230,13 +35238,16 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
   background: #eaeaef;
   padding: 4px;
   border-radius: 4px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
   min-width: 20px;
 }
 
 .c29 {
   background: #f6f6f9;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   padding-left: 32px;
 }
 
@@ -35245,6 +35256,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
 }
 
 .c34 {
+  padding-bottom: 12px;
   padding-left: 32px;
 }
 
@@ -35259,14 +35271,18 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
   padding-left: 32px;
 }
 
-.c43 {
+.c44 {
   background: #f6f6f9;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   padding-left: 48px;
 }
 
 .c45 {
+  padding-left: 32px;
+}
+
+.c47 {
   padding-right: 16px;
 }
 
@@ -35297,7 +35313,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
   line-height: 1.33;
 }
 
-.c42 {
+.c43 {
   font-weight: 500;
   color: #32324d;
   font-size: 0.875rem;
@@ -35350,24 +35366,6 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
   flex-direction: column;
 }
 
-.c21 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
 .c27 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -35384,6 +35382,24 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.c40 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .c35 {
@@ -35449,7 +35465,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
 }
 
 .c18 > * + * {
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .c10 {
@@ -35622,22 +35638,18 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
   fill: #666687;
 }
 
-.c46 {
+.c48 {
   width: 0.75rem;
   height: 0.25rem;
 }
 
-.c46 * {
+.c48 * {
   fill: #4945ff;
 }
 
-.c44 svg {
+.c46 svg {
   height: 0.75rem;
   width: 0.75rem;
-}
-
-.c39 {
-  max-height: 2rem;
 }
 
 .c39 svg {
@@ -35648,7 +35660,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
   fill: #4a4a6a;
 }
 
-.c40 {
+.c41 {
   border: none;
   padding: 0;
   background: transparent;
@@ -35662,7 +35674,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
   align-items: center;
 }
 
-.c41 {
+.c42 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -35697,10 +35709,6 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
   transform: rotateX(0deg);
 }
 
-.c20 {
-  max-height: 2rem;
-}
-
 .c20 svg {
   height: 0.25rem;
 }
@@ -35718,6 +35726,9 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 <div
@@ -35795,7 +35806,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
             >
               <ul
                 class="c17 c18"
-                spacing="2"
+                spacing="3"
               >
                 <li>
                   <div
@@ -35852,7 +35863,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                         </div>
                       </div>
                     </div>
-                    <ul
+                    <ol
                       id="subnav-list-136"
                     >
                       <li>
@@ -35995,7 +36006,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                           </div>
                         </a>
                       </li>
-                    </ul>
+                    </ol>
                   </div>
                 </li>
                 <li>
@@ -36087,7 +36098,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                         </div>
                       </div>
                     </div>
-                    <ul
+                    <ol
                       id="subnav-list-137"
                     >
                       <li>
@@ -36098,15 +36109,15 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             class="c38 c39"
                           >
                             <div
-                              class="c21"
+                              class="c40"
                             >
                               <button
                                 aria-controls="subnav-list-138"
                                 aria-expanded="true"
-                                class="c40"
+                                class="c41"
                               >
                                 <div
-                                  class="c41"
+                                  class="c42"
                                 >
                                   <svg
                                     aria-hidden="true"
@@ -36128,7 +36139,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                                   class="c32"
                                 >
                                   <span
-                                    class="c8 c42"
+                                    class="c8 c43"
                                   >
                                     Default
                                   </span>
@@ -36141,7 +36152,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                           >
                             <li>
                               <a
-                                class="c43 c30"
+                                class="c44 c30"
                                 href="/address"
                               >
                                 <div
@@ -36176,7 +36187,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             </li>
                             <li>
                               <a
-                                class="c43 c30"
+                                class="c44 c30"
                                 href="/category"
                               >
                                 <div
@@ -36211,7 +36222,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             </li>
                             <li>
                               <a
-                                class="c43 c30"
+                                class="c44 c30"
                                 href="/city"
                               >
                                 <div
@@ -36246,7 +36257,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             </li>
                             <li>
                               <a
-                                class="c43 c30"
+                                class="c44 c30"
                                 href="/country"
                               >
                                 <div
@@ -36282,12 +36293,12 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                           </ul>
                         </div>
                       </li>
-                    </ul>
+                    </ol>
                   </div>
                 </li>
                 <li>
                   <div
-                    class="c34"
+                    class="c45"
                   >
                     <button
                       aria-disabled="false"
@@ -36356,7 +36367,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
             >
               <ul
                 class="c17 c18"
-                spacing="2"
+                spacing="3"
               >
                 <li>
                   <a
@@ -36367,7 +36378,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                       class="c3"
                     >
                       <div
-                        class="c44"
+                        class="c46"
                       >
                         <svg
                           fill="none"
@@ -36393,10 +36404,10 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                       </div>
                     </div>
                     <div
-                      class="c3 sc-gsDKAQ c45"
+                      class="c3 sc-gsDKAQ c47"
                     >
                       <svg
-                        class="c46"
+                        class="c48"
                         fill="none"
                         height="1em"
                         viewBox="0 0 4 4"
@@ -36438,7 +36449,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                         </div>
                       </div>
                     </div>
-                    <ul
+                    <ol
                       id="subnav-list-140"
                     >
                       <li>
@@ -36450,7 +36461,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             class="c3"
                           >
                             <div
-                              class="c44"
+                              class="c46"
                             >
                               <svg
                                 fill="none"
@@ -36487,7 +36498,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             class="c3"
                           >
                             <div
-                              class="c44"
+                              class="c46"
                             >
                               <svg
                                 fill="none"
@@ -36515,7 +36526,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                         </a>
                       </li>
                       <li />
-                    </ul>
+                    </ol>
                   </div>
                 </li>
                 <li>
@@ -36543,7 +36554,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                         </div>
                       </div>
                     </div>
-                    <ul
+                    <ol
                       id="subnav-list-141"
                     >
                       <li>
@@ -36555,7 +36566,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             class="c3"
                           >
                             <div
-                              class="c44"
+                              class="c46"
                             >
                               <svg
                                 fill="none"
@@ -36592,7 +36603,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             class="c3"
                           >
                             <div
-                              class="c44"
+                              class="c46"
                             >
                               <svg
                                 fill="none"
@@ -36620,7 +36631,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                         </a>
                       </li>
                       <li />
-                    </ul>
+                    </ol>
                   </div>
                 </li>
               </ul>
@@ -36660,7 +36671,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
             >
               <ul
                 class="c17 c18"
-                spacing="2"
+                spacing="3"
               >
                 <li>
                   <a
@@ -36671,7 +36682,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                       class="c3"
                     >
                       <div
-                        class="c44"
+                        class="c46"
                       >
                         <svg
                           fill="none"
@@ -36697,10 +36708,10 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                       </div>
                     </div>
                     <div
-                      class="c3 sc-gsDKAQ c45"
+                      class="c3 sc-gsDKAQ c47"
                     >
                       <svg
-                        class="c46"
+                        class="c48"
                         fill="none"
                         height="1em"
                         viewBox="0 0 4 4"
@@ -36742,7 +36753,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                         </div>
                       </div>
                     </div>
-                    <ul
+                    <ol
                       id="subnav-list-143"
                     >
                       <li>
@@ -36753,15 +36764,15 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             class="c38 c39"
                           >
                             <div
-                              class="c21"
+                              class="c40"
                             >
                               <button
                                 aria-controls="subnav-list-144"
                                 aria-expanded="true"
-                                class="c40"
+                                class="c41"
                               >
                                 <div
-                                  class="c41"
+                                  class="c42"
                                 >
                                   <svg
                                     aria-hidden="true"
@@ -36783,7 +36794,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                                   class="c32"
                                 >
                                   <span
-                                    class="c8 c42"
+                                    class="c8 c43"
                                   >
                                     Sub section
                                   </span>
@@ -36796,14 +36807,14 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                           >
                             <li>
                               <a
-                                class="c43 c30"
+                                class="c44 c30"
                                 href="/address"
                               >
                                 <div
                                   class="c3"
                                 >
                                   <div
-                                    class="c44"
+                                    class="c46"
                                   >
                                     <svg
                                       fill="none"
@@ -36832,7 +36843,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             </li>
                             <li>
                               <a
-                                class="c43 c30"
+                                class="c44 c30"
                                 href="/category"
                               >
                                 <div
@@ -36867,14 +36878,14 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             </li>
                             <li>
                               <a
-                                class="c43 c30"
+                                class="c44 c30"
                                 href="/city"
                               >
                                 <div
                                   class="c3"
                                 >
                                   <div
-                                    class="c44"
+                                    class="c46"
                                   >
                                     <svg
                                       fill="none"
@@ -36903,7 +36914,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             </li>
                             <li>
                               <a
-                                class="c43 c30"
+                                class="c44 c30"
                                 href="/country"
                               >
                                 <div
@@ -36939,7 +36950,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                           </ul>
                         </div>
                       </li>
-                    </ul>
+                    </ol>
                   </div>
                 </li>
                 <li>
@@ -36967,7 +36978,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                         </div>
                       </div>
                     </div>
-                    <ul
+                    <ol
                       id="subnav-list-145"
                     >
                       <li>
@@ -36979,7 +36990,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             class="c3"
                           >
                             <div
-                              class="c44"
+                              class="c46"
                             >
                               <svg
                                 fill="none"
@@ -37050,7 +37061,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                             class="c3"
                           >
                             <div
-                              class="c44"
+                              class="c46"
                             >
                               <svg
                                 fill="none"
@@ -37112,7 +37123,7 @@ exports[`Storyshots Design System/Components/SubNav base 1`] = `
                           </div>
                         </a>
                       </li>
-                    </ul>
+                    </ol>
                   </div>
                 </li>
               </ul>
